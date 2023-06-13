@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: stretch;
+}
+
+#grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex: 1 1 auto;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex: 1 1 auto;
+}
+
+.pixel {
+    border: solid;
+    flex: 1 1 auto;
+}
